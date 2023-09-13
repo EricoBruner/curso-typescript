@@ -22,9 +22,9 @@ const game2: Game = {
 
 const games2: Game[] = [game2];
 
-function play(game: Game) {
+function play2(game: Game) {
   // runs the game
   console.log(game);
 }
 
-play(games2[0]);
+play2(games2[0]);
