@@ -16,6 +16,8 @@
     "aula10": "nodemon ./aula-ts-10/index.ts",
     "aula11": "nodemon ./aula-ts-11/index.ts",
     "aula12": "nodemon ./aula-ts-12/index.ts",
+    "aula12build": "npx tsc ./aula-ts-12/index.ts",
+    "aula12start": "node ./aula-ts-12/index.js",
     "aula13": "nodemon ./aula-ts-13/index.ts"
   },
   "keywords": [],
@@ -26,6 +28,7 @@
     "@types/pg": "^8.10.2",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
